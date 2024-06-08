@@ -1,0 +1,29 @@
+.chart-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    pointer-events: none;
+  }
+  
+  .center-text h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .center-text p {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .arc text {
+    pointer-events: none; /* Prevent text from interfering with mouse events */
+  }
+  

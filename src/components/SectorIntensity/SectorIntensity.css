@@ -1,0 +1,45 @@
+/* src/StackedBarChart.css */
+.checkboxes {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .checkboxes label {
+    margin-right: 15px;
+  }
+  
+  .tooltip {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 8px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    opacity: 0;
+  }
+  
+  rect {
+    cursor: pointer;
+    transition: fill 0.3s ease;
+  }
+  
+  rect:hover {
+    fill: #f7c6c7;
+  }
+  
+
+  /* SectorIntensity.css */
+
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}

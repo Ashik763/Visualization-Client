@@ -8,7 +8,7 @@ const SectorIntensity = () => {
   const [data, setData] = useState([]);
 
   useEffect(()=> {
-    fetch('http://localhost:5000/sector-intensity')
+    fetch('https://visualization-rho.vercel.app/sector-intensity')
     .then(res => res.json())
     .then(data => {
       console.log(data);

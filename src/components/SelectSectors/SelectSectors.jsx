@@ -5,7 +5,7 @@ const SelectSectors = ({handleChange}) => {
     const [data,setData] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/all-sectors`)
+        fetch(`https://visualization-rho.vercel.app/all-sectors`)
           .then((res) => res.json())
           .then((data) => {
             console.log(data);

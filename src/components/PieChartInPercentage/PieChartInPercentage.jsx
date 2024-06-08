@@ -11,7 +11,7 @@ const PieChartInPercentage = () => {
 
   useEffect(() => {
 
-    fetch(`http://localhost:5000/pie-chart-percentage/${dropdownValue}`)
+    fetch(`https://visualization-rho.vercel.app/pie-chart-percentage/${dropdownValue}`)
       .then(res => res.json())
       .then(data => {
         let total = data.reduce((prev, curr) => {

@@ -27,7 +27,7 @@ const MultiLineChart = () => {
 
   useEffect(() => {
     fetch(
-      `http://localhost:5000/insights-trends/?startYear=${startYear}&endYear=${endYear}&sector=${dropdownValue}`
+      `https://visualization-rho.vercel.app/insights-trends/?startYear=${startYear}&endYear=${endYear}&sector=${dropdownValue}`
     )
       .then((res) => res.json())
       .then((data) => {
